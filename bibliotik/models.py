@@ -84,13 +84,9 @@ class BibliotikTorrent(models.Model):
             assert self.format in EBOOK_FORMATS, u'Unknown eBook format {0}'.format(self.format)
         elif self.category == u'Applications':
             pass
-        elif self.category == u'Articles':
-            pass
         elif self.category == u'Audiobooks':
             pass
         elif self.category == u'Comics':
-            pass
-        elif self.category == u'Journals':
             pass
         elif self.category == u'Magazines':
             pass
